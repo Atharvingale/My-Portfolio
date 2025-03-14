@@ -375,7 +375,6 @@ body::before {
     width: 80px;
     height: 80px;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    /* filter: grayscale(100%); */
 }
 
 .lang-item {
