@@ -403,7 +403,6 @@ body::before {
 
 .lang-item:hover img {
     transform: scale(1.1) rotate(5deg);
-    filter: grayscale(0%);
 }
 
 .aboutme ul {
