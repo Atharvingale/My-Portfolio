@@ -66,7 +66,7 @@ const Contact = () => {
   return (
     <section id="contact" className="section" data-testid="section-contact">
       <div className="container-wide">
-        <div className="section-label">// 07_TRANSMISSION</div>
+        <div className="section-label">{"// 07_TRANSMISSION"}</div>
         <h2 className="section-title">OPEN A CHANNEL</h2>
         <p className="section-sub">
           Recruiter, engineer, or fellow explorer? Ping the deck — I read every signal.
@@ -87,7 +87,12 @@ const Contact = () => {
               <a href={`tel:${PROFILE.phone.replace(/\s+/g, "")}`} data-testid="contact-phone-link">
                 <Phone size={16} /> {PROFILE.phone}
               </a>
-              <a href="#" onClick={(e) => e.preventDefault()} data-testid="contact-location">
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${PROFILE.location} ${PROFILE.coordinates}`)}`}
+                target="_blank"
+                rel="noreferrer"
+                data-testid="contact-location"
+              >
                 <MapPin size={16} /> {PROFILE.location} · {PROFILE.coordinates}
               </a>
               <a href={PROFILE.socials.github} target="_blank" rel="noreferrer" data-testid="contact-github-link">

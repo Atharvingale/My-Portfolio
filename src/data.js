@@ -105,7 +105,7 @@ export const EDUCATION = {
   degree: "B.Tech · Computer Science Engineering",
   institution: "AISSMS Institute of Information Technology, Pune",
   window: "AUG 2023 — AUG 2027",
-  cgpa: "7.88 / 10",
+  cgpa: "7.98 / 10",
   coursework: ["Data Structures", "Operating Systems", "DBMS", "Computer Networks"],
 };
 

@@ -296,7 +296,7 @@ function App() {
         <div className="container-wide footer-inner">
           <div>
             <div style={{ color: "var(--cyan)", fontSize: 12, letterSpacing: "0.28em" }}>
-              // END_OF_TRANSMISSION
+              {"// END_OF_TRANSMISSION"}
             </div>
             <div style={{ marginTop: 6 }}>
               © {new Date().getFullYear()} ATHARVA INGALE · Compiled with React, Firebase & caffeine.
